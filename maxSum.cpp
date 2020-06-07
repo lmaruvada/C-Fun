@@ -10,7 +10,7 @@ int getMax(vector<int> &a, int start, int end){
   return sum;
 }
 vector<int> getLargestSum(vector<int> &arr){
-  int max= 0, mi, mj;
+  int max= INT_MIN, mi, mj;
   vector<int> ret;
   for(auto i=0; i<arr.size(); i++){
     for(auto j=i; j< arr.size(); j++){
